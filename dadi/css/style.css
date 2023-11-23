@@ -3,3 +3,33 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: url(https://photography.cahung.it/wp-content/uploads/DSC_4834.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_black_overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus, #reset:active {
+    box-shadow: 0 0 0 .25rem rgba(11, 11, 11, 0.5);
+  }
+
+  #reset {
+    border-color: black;
+  }
+  
+.cronologia{
+    width: 30%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+/* .d-flex:nth-child(even) {
+    align-self: flex-end;
+    background-color: crimson;
+  } */

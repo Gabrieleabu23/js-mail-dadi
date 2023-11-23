@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Gioco dei Dadi</title>
 </head>
-<body class="text-center">
-    <h1 class="text-center">Tenta la fortuna!</h1>
-    <input type="submit" onclick="invio();" id="reset">
+<body class="text-center text-white">
     <div class="d-flex justify-content-center">
-        <div id="risultato"></div>
+        <h1 class="text-center w-75 pt-2 pb-2 bg_black_overlay">Tenta la fortuna!</h1>
+    </div>
+    <p>Scommetti sulla tua fortuna contro il computer. Buona fortuna!</p>
+    <input type="submit" onclick="invio();" id="reset" value="Prova!" class="btn btn-primary bg-white text-dark">
+    <div class="d-flex justify-content-center">
+        <div class="row w-100 justify-content-center p-4 align-items-end">
+            <div class="col-4"><span id="risultato-user"></span></div>
+            <div class="col-auto"><span id="risultato"></span></div>
+            <div class="col-4"><span id="risultato-pc"></span></div>
+        </div>
+        <div class="cronologia"></div>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
